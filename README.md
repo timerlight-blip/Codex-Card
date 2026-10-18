@@ -4,7 +4,9 @@ Your Codex usage limits, right in the macOS menu bar.
 
 `5H 72% · 7D 61%` — remaining quota, at a glance.
 
-![Codex Card native quota view](Docs/quota-preview.png)
+![Codex Card quota view](Docs/quota-preview.png)
+
+![Codex Card desktop card](Docs/desktop-preview.png)
 
 Native view rendered from a real quota snapshot. Percentages above are examples;
 your menu bar shows your account's current limits.
