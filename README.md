@@ -4,11 +4,9 @@ Your Codex usage limits, right in the macOS menu bar.
 
 `5H 72% · 7D 61%` — remaining quota, at a glance.
 
-![Codex Card quota view](1.Docs/quota-preview.png)
+![Codex Card native quota view](screenshots/quota-preview.png)
 
-![Codex Card desktop card](1.Docs/desktop-preview.png)
-
-Native view rendered from a real quota snapshot. Percentages above are examples;
+Current native interface rendered from a real cached quota snapshot. Percentages above are examples;
 your menu bar shows your account's current limits.
 
 ## Project status
@@ -41,6 +39,10 @@ Choose **Settings → Language → Follow system, English, or 简体中文**. Ch
 
 在“**设置 → 语言**”中选择“跟随系统”、English 或“简体中文”，切换立即生效并自动保存。账户入口位于设置顶部，可执行文件与路径选项位于默认折叠的“高级设置”中。
 
+![Codex Card language and account settings](screenshots/settings-preview.png)
+
+Current settings view rendered from the app code, showing the language selector, account row, and collapsed Advanced settings.
+
 ## Scope
 
 A native macOS 15+ menu bar app focused on Codex usage limits.
@@ -70,7 +72,7 @@ live quota data and refresh schedule. Its × button hides it, and it can be show
 again from Settings. **Edge glow** adjusts the halo strength; **Glass tint**
 adjusts a smoked-glass layer with a minimum optical density to keep light wallpaper from washing out the face. Both settings are saved. **Reset position** returns it to the top-right of the screen.
 
-![Native desktop glass card preview](Docs/desktop-preview.png)
+![Native desktop glass card preview](screenshots/desktop-preview.png)
 
 The card and its lighting are pure code, with a transparent window and native
 behind-window material. This image is an offscreen render on a test backdrop,
