@@ -1,13 +1,12 @@
 # Codex Card
 
-Your Codex usage limits, right in the macOS menu bar.
+Your Codex usage limits, on your desktop and in the macOS menu bar.
 
-`5H 72% · 7D 61%` — remaining quota, at a glance.
+<p align="center">
+  <img src="screenshots/desktop-preview.png" alt="Codex Card desktop glass card" width="360">
+</p>
 
-![Codex Card native quota view](screenshots/quota-preview.png)
-
-Current native interface rendered from a real cached quota snapshot. Percentages above are examples;
-your menu bar shows your account's current limits.
+<p align="center">Native desktop card preview, rendered from a real cached quota snapshot on a test backdrop.</p>
 
 ## Project status
 
@@ -39,9 +38,19 @@ Choose **Settings → Language → Follow system, English, or 简体中文**. Ch
 
 在“**设置 → 语言**”中选择“跟随系统”、English 或“简体中文”，切换立即生效并自动保存。账户入口位于设置顶部，可执行文件与路径选项位于默认折叠的“高级设置”中。
 
-![Codex Card language and account settings](screenshots/settings-preview.png)
+<p align="center">
+  <img src="screenshots/settings-preview.png" alt="Codex Card language and account settings" width="360">
+</p>
 
 Current settings view rendered from the app code, showing the language selector, account row, and collapsed Advanced settings.
+
+## Menu bar quota view
+
+`5H 72% · 7D 61%` — remaining quota, at a glance. These percentages are examples; your menu bar shows your account's latest reported limits.
+
+<p align="center">
+  <img src="screenshots/quota-preview.png" alt="Codex Card menu bar quota view" width="360">
+</p>
 
 ## Scope
 
@@ -71,8 +80,6 @@ position; Codex Card remembers where you leave it. The card shares the menu bar'
 live quota data and refresh schedule. Its × button hides it, and it can be shown
 again from Settings. **Edge glow** adjusts the halo strength; **Glass tint**
 adjusts a smoked-glass layer with a minimum optical density to keep light wallpaper from washing out the face. Both settings are saved. **Reset position** returns it to the top-right of the screen.
-
-![Native desktop glass card preview](screenshots/desktop-preview.png)
 
 The card and its lighting are pure code, with a transparent window and native
 behind-window material. This image is an offscreen render on a test backdrop,
